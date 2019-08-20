@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Portfolio</title>
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+            integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css"
+        />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        
+        <link rel="stylesheet" href="./css/style.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Shadows+Into+Light|Special+Elite|Ubuntu+Condensed&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+        <link rel="stylesheet" href="./css/gallery-grid.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+            <div class="container">
+               
+                <a href="index.html" class="navbar-brand">Srinidhi S Kashyap</a>
+                
+                <button
+                    class="hamburger hamburger--slider"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navtoggler"
+                    aria-controls="navtoggler"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+
+                
+                <div class="collapse navbar-collapse" id="navtoggler">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#home">
+                                Home <span class="sr-only">(current)</span></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#about-me">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+
+                    
+                    <ul class="social-media-nav">
+                        <li class="social-item">
+                            <a href="https://www.facebook.com/srinidhikash" class="facebook"
+                                ><i class="fab fa-facebook-f"></i
+                            ></a>
+                        </li>
+                        <li class="social-item">
+                            <a href="https://www.linkedin.com/in/srinidhi-kashyap-2b013969" class="instagram"
+                                ><i class="fab fa-linkedin"></i
+                            ></a>
+                        </li>
+                        <li class="social-item">
+                            <a href="https://twitter.com/srinikash" class="twitter"
+                                ><i class="fab fa-twitter"></i
+                            ></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+       
+        <section class="home" id="home">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="header d-flex align-items-center">
+                    <div class="header-info">
+                        
+                        <h1>
+                            <span>Hi there!</span> <br />
+                            <span>I'm</span> Srinidhi S Kashyap <br />
+                            <span></span>
+                        </h1>
+
+                        
+                        <ul class="header-meta">
+                            <li>Web Developer</li>
+                            <li>Graphic Designer</li>
+                            <li>Bibliophile</li>
+                        </ul>
+
+                        
+                        <a href="#about-me" class="down-arrow">
+                            <span class="down-one"></span>
+                            <span class="down-two">About me</span>
+                            <span class="down-three"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+        <section class="about-me section-padding bg-aqua" id="about-me">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-lg-5 col-md-4">
+                        <div class="image-wrapper">
+                            <img
+                                src="./assets/SKS.jpg"
+                                alt="About me photo"
+                            />
+                        </div>
+                    </div>
+                   
+                    <div class="col-lg-7 col-md-8">
+                        <div class="about-wrapper">
+                            <div class="profile-head">
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#about" role="tab" aria-controls="home" aria-selected="true">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="education-tab" data-toggle="tab" href="#education" role="tab" aria-controls="education" aria-selected="false">Education</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="projects-tab" data-toggle="tab" href="#projects" role="tab" aria-controls="projects" aria-selected="false">Projects</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="technologies-tab" data-toggle="tab" href="#technologies" role="tab" aria-controls="technologies" aria-selected="false">Technologies</a>
+                                    </li>
+                                    <!-- <li class="nav-item">
+                                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#internships" role="tab" aria-controls="internships" aria-selected="false">Internships</a>
+                                    </li> -->
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="hobbies-tab" data-toggle="tab" href="#hobbies" role="tab" aria-controls="hobbies" aria-selected="false">Activities</a>
+                                    </li>
+                                </ul>
+
+                                <div class="tab-content profile-tab" id="myTabContent">
+                                    <div id="about" class="tab-pane active"  role="tabpanel" aria-labelledby="home-tab">
+                                        <div class="row">
+                                            <h3 class="section-title">
+                                                About me <span></span>
+                                            </h3>
+                                            <!-- <span class="section-subtitle">UX Designer & Web Developer</span> -->
+                                            <div class="description">
+                                                <p id="fontt">
+                                                    Hello! I am Srinidhi S Kashyap. I am from Bangalore.<br/>
+                                                    I love spending time reading and desiging.<br/>
+                                                    I also love fixing things and taking long walks.<br/>
+                                                    I aim to be a professional Web & Graphic designer and create beautiful professional websites using best practice accessibility. <br />
+                                                    I enjoy working in teams and turning complex problems into simple ones.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="about-buttons">
+                                            <a href="javascript:;" class="btn-main">Download CV</a>
+                                        </div>
+                                    </div>
+
+                                    <div id="education" class="tab-pane fade"  role="tabpanel" aria-labelledby="education-tab">
+                                        <div class=" education row">
+                                            <div class="col-md-4">
+                                                <h4 id="fonts">PES University</h4>
+                                                <p class="experience-period">
+                                                    Aug 2016                - 
+                                                    Aug 2019           </p>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <p id="fontp">
+                                                    <strong>Masters - Computer Applications ( MCA )</strong><br/><br/>
+                                                    <span class="hidden-phone">
+                                                    
+                                                        Over a period of 3 years I learnt programming and working with technologies like PHP, Python, SQL and more.
+
+                                                        The major focus of my education here at PES included Web Design and Development using various tools and technologies
+                                                    </span>
+                                                    
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class=" education row">
+                                            <div class="col-md-4">
+                                                <h4 id="fonts">Vijaya Degree College</h4>
+                                                <p class="experience-period">
+                                                    Aug 2012                - 
+                                                    Aug 2015            </p>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <p id="fontp">
+                                                    <strong>Bachelor - Computer Applications ( BCA )</strong><br/><br/>
+                                                    <span class="hidden-phone">
+                                                    
+                                                        Over a period of 3 years I learnt the basics of programming and Web Development while working with technologies like Java, HTML, CSS and more.
+
+                                                    </span>
+                                                    
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="projects" class="tab-pane fade"  role="tabpanel" aria-labelledby="projects-tab">
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                                <div class="flip-box">
+                                                    <div class="flip-box-inner">
+                                                        <div class="flip-box-front" >
+                                                            <h1 id="edu"><strong>SAMVED</strong></h2>
+                                                            <img id="img" class="img-responsive" src="./assets/Samved_Logo.png" alt="">
+                                                        </div>
+                                                        <div class="flip-box-back">
+                                                            <h4><strong>"Scholarly Archives for Miscellaneous Videos and Educational Data"</strong></h4><br/>
+                                                            <p>A web portal to host NPTEL tutorial videos built exclusively for PES University</p>
+                                                            <p>Technologies Used : Python, Django, HTML5, CSS3, Bootstrap, PostgreSQL</p>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                                <div class="flip-box">
+                                                    <div class="flip-box-inner">
+                                                        <div class="flip-box-front" >
+                                                            <h1 id="edu"><strong>O - T - T - P</strong></h2>
+                                                            <!-- <img class="img-responsive" id="img" src="./assets/OTTP.jpg" alt=""> -->
+                                                        </div>
+                                                        <div class="flip-box-back">
+                                                            <h4><strong>"Online Trading Tutorials Portal"</strong></h4><br/>
+                                                            <p>An online Web Portal for interested candidates to learn and experience the workings of Online Share and Commodities Marketing.</p>
+                                                            <p>Technologies Used : PHP, HTML5, CSS3, Bootstrap</p>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="technologies" class="tab-pane fade"  role="tabpanel" aria-labelledby="technologies-tab">
+                                        <div class="row">
+                                            <div class="col-md-4 col-sm-4 col-xs-6">
+                                                 <img src="./assets/Technologies/html5.svg" alt="" class="img-responsive center"> 
+                                            </div>
+
+                                            <div class="col-md-4 col-sm-4 col-xs-6">
+                                                <img class="svg" src="./assets/Technologies/css3.svg" alt="" class="img-responsive center"> 
+                                            </div>
+
+                                            <div class="col-md-4 col-sm-4 col-xs-6">
+                                                <img src="./assets/Technologies/Bootstrap.svg" alt="" class="img-responsive center"> 
+                                            </div>
+
+                                            <div class="col-md-4 col-sm-4 col-xs-6">
+                                                <img src="./assets/Technologies/PS.svg" alt="" class="img-responsive center"> 
+                                            </div>
+
+                                            <div class="col-md-4 col-sm-4 col-xs-6">
+                                                <img src="./assets/Technologies/wp.svg" alt="" class="img-responsive center"> 
+                                            </div>
+
+                                            <div class="col-md-4 col-sm-4 col-xs-6">
+                                                <img src="./assets/Technologies/Ai.svg" alt="" class="img-responsive center"> 
+                                            </div>
+
+                                            <div class="col-md-4 col-sm-4 col-xs-6">
+                                                <img src="./assets/Technologies/php.svg" alt="" class="img-responsive center"> 
+                                            </div>
+
+                                            <div class="col-md-4 col-sm-4 col-xs-6">
+                                                <img src="./assets/Technologies/python.svg" alt="" class="img-responsive center"> 
+                                            </div>
+
+                                            <div class="col-md-4 col-sm-4 col-xs-6">
+                                                <img src="./assets/Technologies/js.svg" alt="" class="img-responsive center"> 
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- <div id="internships" class="tab-pane fade"  role="tabpanel" aria-labelledby="internships-tab">
+                                        <div class="row">
+                                        </div>
+                                    </div> -->
+
+                                    <div id="hobbies" class="tab-pane fade"  role="tabpanel" aria-labelledby="hobbies-tab">
+                                        <div class="row">
+                                            <h3 class="section-title">
+                                                My Activities <span></span>
+                                            </h3>
+                                            <div class="description">
+                                                <ul>
+                                                    <li id="fonli">Freelance Graphic Designer - Designing Logos, Invites, Posters, Brochures, Banners, Certificates, ID Cards and more.
+                                                </ul>
+                                                <ul>
+                                                    <li id="fonli">Student Organizer for the inter college fest “DATATHON’19”, “DATATHON’18” and Coding Contest at PES University.
+                                                </ul>
+                                                <ul>
+                                                    <li id="fonli">Numismatics - Collection of Old, Rare and Foreign Currency
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>    
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+		<section class="portfolio-section section-padding" id="portfolio">
+			<h3 class="section-title text-center">
+                Portfolio <span></span><hr>
+            </h3>
+            
+			<div class="row text-center">
+				<div class="col-md-4 col-sm-4 col-xs-6">
+                    <div class="thumbnail">
+                    <img class="img-responsive" src="./assets/brochure.jpg" alt="brochure.jpg" width="400" height="300">
+                    <p><strong>Brochure & Certificates</strong></p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Brochures">
+                        View More
+                    </button>
+                </div>
+            </div>
+			
+            <div class="col-md-4 col-sm-4 col-xs-6">
+				<div class="thumbnail">
+					<img class="img-responsive" src="./assets/banner.jpg" alt="banner.jpg" width="400" height="300">
+					<p><strong>Banners</strong></p>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Banners">  
+                        View More
+                    </button>
+				</div>
+			</div>
+			
+            <div class="col-md-4 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="./assets/invite.jpg" alt="certificate.png" width="400" height="300">
+                    <p><strong>Invitations</strong></p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Invites">
+                        View More
+                    </button>
+                </div>
+            </div>
+            <br>
+            <hr>
+		</section>
+		
+        <section class="contact-section section-padding bg-black" id="contact">
+            
+            <!-- <div id="contact" class="container"> -->
+            <div  class="container">
+                <h3 class="section-title text-center">
+                    Contact <span></span>
+                </h3>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                        <ul class="no-bullets">
+                            <li>
+                                <a href="mailto:srinidhikash@gmail.com">
+                                    <i class="fa fa-envelope" style="margin-left: -18px;margin-top: -22px;"></i>
+                                    <span style="unicode-bidi:bidi-override; direction: ltr;">
+                                        srinidhikash@gmail.com                   </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 mb-3 mb-md-0">
+                        <ul class="no-bullets">
+                            <li>
+                                <a href="https://twitter.com/srinikash" target="_blank" >
+                                    <i class="fab fa-twitter"></i>
+                                    /srinikash                
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 mb-3 mb-md-0">
+                        <ul class="no-bullets">
+                            <li>
+                                <a href="https://www.linkedin.com/in/srinidhi-kashyap-2b013969" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                    /srinidhi-kashyap-2b013969                
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 mb-3 mb-md-0">
+                        <ul class="no-bullets">
+                            <li>
+                                <a href="https://www.facebook.com/srinidhikash" target="_blank">
+                                    <i class="fab fa-facebook" aria-hidden="true"></i>
+                                    /srinidhikash                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>            
+            </div>
+        </section>
+
+
+        <!-- The Modal -->
+        <div class="modal fade" id="Banners">
+            <div class="modal-dialog">
+                <div class="modal-content">
+        
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Banners</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+        
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="container gallery-container">
+                            <div class="tz-gallery">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-4">
+                                        <a class="lightbox" href="./assets/Banners/D19 - 4 x 12.jpg">
+                                            <img src="./assets/Banners/D19 - 4 x 12.jpg" alt="Datathon Banner 1">
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4">
+                                        <a class="lightbox" href="./assets/Banners/D19 - 9 x 21.jpg">
+                                            <img src="./assets/Banners/D19 - 9 x 21.jpg" alt="Datathon Banner 2">
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4">
+                                        <a class="lightbox" href="./assets/Banners/BDC1.jpg">
+                                            <img src="./assets/Banners/BDC1.jpg" alt="Blood Donation Camp - Banner 1">
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4">
+                                        <a class="lightbox" href="./assets/Banners/BDC2.jpg">
+                                            <img src="./assets/Banners/BDC2.jpg" alt="Blood Donation Camp - Banner 2">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       <!-- The Modal -->
+        <div class="modal fade" id="Brochures">
+            <div class="modal-dialog">
+                <div class="modal-content">
+        
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Brochure & Certificates </h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+        
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="container gallery-container">
+                            <div class="tz-gallery">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-4">
+                                        <a class="lightbox" href="./assets/Brochures/D18.jpg">
+                                            <img src="./assets/Brochures/D18.jpg" alt="Datathon'18">
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4">
+                                        <a class="lightbox" href="./assets/Brochures/D19.jpg">
+                                            <img src="./assets/Brochures/D19.jpg" alt="Datathon'19">
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4">
+                                        <a class="lightbox" href="./assets/Brochures/CC19.jpg">
+                                            <img src="./assets/Brochures/CC19.jpg" alt="Coding Contest">
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4">
+                                        <a class="lightbox" href="./assets/Brochures/FDP - F.jpg">
+                                            <img src="./assets/Brochures/FDP - F.jpg" alt="FDP">
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4">
+                                        <a class="lightbox" href="./assets/Brochures/FDP - B.jpg">
+                                            <img src="./assets/Brochures/FDP - B.jpg" alt="FDP">
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4">
+                                        <a class="lightbox" href="./assets/Certificates/D18_P.jpg">
+                                            <img src="./assets/Certificates/D18_P.jpg" alt="Certificate">
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4">
+                                        <a class="lightbox" href="./assets/Certificates/D19_P.jpg">
+                                            <img src="./assets/Certificates/D19_P.jpg" alt="Certificate">
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4">
+                                        <a class="lightbox" href="./assets/Certificates/MS17.jpg">
+                                            <img src="./assets/Certificates/MS17.jpg" alt="Certificate">
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Modal -->
+        <div class="modal fade" id="Invites">
+            <div class="modal-dialog">
+                <div class="modal-content">
+        
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Invitations</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+        
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="container gallery-container">
+                            <div class="tz-gallery">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-4">
+                                        <a class="lightbox" href="./assets/Invites/Invite 1.png">
+                                            <img src="./assets/Invites/Invite 1.png" alt="Invite">
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4">
+                                        <a class="lightbox" href="./assets/Invites/Invite 2.jpeg">
+                                            <img src="./assets/Invites/Invite 2.jpeg" alt="Invite">
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4">
+                                        <a class="lightbox" href="./assets/Invites/Invite 3.png">
+                                            <img src="./assets/Invites/Invite 3.png" alt="Invite">
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4">
+                                        <a class="lightbox" href="./assets/Invites/Invite 4.png">
+                                            <img src="./assets/Invites/Invite 4.png" alt="Invite">
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4">
+                                        <a class="lightbox" href="./assets/Invites/Invite 5.jpg">
+                                            <img src="./assets/Invites/Invite 5.jpg" alt="Invite">
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4">
+                                        <a class="lightbox" href="./assets/Invites/Invite 6.png">
+                                            <img src="./assets/Invites/Invite 6.png" alt="Invite">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+     
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+        <script>
+            baguetteBox.run('.tz-gallery');
+        </script>
+
+        <script>
+            $(document).ready(function(){
+                $('[data-toggle="tooltip"]').tooltip(); 
+                $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+                    if (this.hash !== "") {
+                        event.preventDefault();
+                        var hash = this.hash;
+                        $('html, body').animate({
+                            scrollTop: $(hash).offset().top
+                        }, 900, function(){
+                            window.location.hash = hash;
+                        });
+                    } 
+                });
+            })
+        </script>
+        
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"
+        ></script>
+      
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"
+        ></script>
+            
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+            
+        <script src="./js/index.js"></script>
+    </body>
+</html>
