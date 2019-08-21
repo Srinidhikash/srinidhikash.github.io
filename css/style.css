@@ -810,3 +810,8 @@ p#fontt {
     font-family: 'Special Elite', cursive !important;
      font-size: 20px;
 }
+
+.about-wrapper .col-sm-12, .col-xs-12{
+    padding-left: 50px !important;
+    padding-right: 30px !important;
+}
